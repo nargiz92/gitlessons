@@ -3,3 +3,39 @@ var a;
 
 // Only change code below this line
 a=7;
+<div>I am Nargiza</div>
+<div>
+    <ul>
+        <li>git clone </li>
+        <li>git status</li>
+        <li>git commit</li>
+        <li>git commitgit</li>
+        <li> We started to learn js from https://learn.javascript.ru/types</li>
+        <script>
+          "use script"; 
+          alert( 1/0 );
+          alert( "не число"/2);
+          alert( "не число прилипчиво"/6+9);
+         
+        </script>
+        <script> //bigInt числа больше чем 9007199254740991 (2,53 -1) или меньше-(-2,53 -1)
+         // n в конце значения означает BigInt
+         const BigInt= 90055665656565654545454545n;
+         let str = "привет";
+         let str = 'привет, строка с одинарной кавычкой';
+         let phrase =`Привет`;
+         let name ="Ivan";
+         //вставим переменную
+         alert(`Hello, ${name}!`);
+        </script>
+        <script>
+            let name ="Ivan";
+         //вставим переменную
+         alert(`Hello, ${name}!`);
+           
+         //вставим выражение
+         alert( `результат: ${1+2}`); 
+        </script>
+        </script>
+    </ul>
+</div>
