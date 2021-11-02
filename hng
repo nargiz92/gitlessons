@@ -39,3 +39,46 @@ a=7;
         </script>
     </ul>
 </div>
+  //вставим переменную
+         alert(`Hello, ${name}!`);
+        </script>
+        <script>
+            let name ="Ivan";
+         //вставим переменную
+         alert(`Hello, ${name}!`);
+           
+         //вставим выражение
+         alert( `результат: ${1+2}`); 
+        </script>
+        </script>
+        <script>
+            //булевый (логический) тип
+            let nameFieldChecked = true;
+            let ageFieldChecked = false;
+            let isGreater = 4>1;
+
+            alert(
+                isGreater 
+            );
+            let age;
+            alert(age);
+            // null используется для присвоения переменой пустого или неизвестного значения
+            //undefined используется для проверки была ли переменная назначенна
+            //объект object тип данных или особенный тип, все остальные типы данных примитивные
+            //symbol - используются для создания уникальных индификаторов
+            //typeOf- возвращает тип аргумента, тва способа вызова typeOf x; typeOf(x); 
+            /* Вызов typeof x возвращает строку с именем типа */
+        </script>
+        <script>
+            typeof undefined; 
+            typeof 0;
+            typeof 10n;
+            typeof null;
+            typeof 'cool';
+            typeof true;
+            typeof Math;
+            typeof alert;
+            typeof Symbol;
+ 
+        </script>
+        
