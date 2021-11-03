@@ -101,4 +101,16 @@ alert(`тебе ${age} лет!`);
       alert( isBoss );
       let userName= prompt("как тебя зовут");
       alert(`я ${userName}.`);
+      //преобразование типов три способа: строковое, числовое, логическое преобразовании
+  
+      let value =true;
+      alert(typeof value);
+      value =String(value);
+      alert(typeof value);
+      let str ="123";
+      alert(typeof str);
+      let num = Number(str);
+      alert(typeof num);
+      let age = Number("Любая строка вместо числа");
+      alert(age);
  </script>
