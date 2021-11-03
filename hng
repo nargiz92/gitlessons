@@ -113,4 +113,30 @@ alert(`тебе ${age} лет!`);
       alert(typeof num);
       let age = Number("Любая строка вместо числа");
       alert(age);
+                //преобразование типов три способа: строковое, числовое, логическое преобразовании
+  
+      let value =true;
+      alert(typeof value);
+      value =String(value);
+      alert(typeof value);
+      let str ="123";
+      alert(typeof str);
+      let num = Number(str);
+      alert(typeof num);
+      let age = Number("Любая строка вместо числа");
+      alert(age);
+      /*числовое значение
+      undefined преобразуется в NaN;
+      123 преобразуется в 123;
+      null преобразуется в 0;
+      true преобразуется в 1;
+      false преобразуется в 0*/
+      // логическое преобразования 
+      /* Boolean(value) пустая строка, число 0, NaN, null преобразуются в false, все остальное true*/
+      alert(Boolean(1) );
+      alert(Boolean(0));
+      alert(Boolean(null));
+      alert(Boolean("")); 
+      /*строковое преобразование происходит вызвов String(value) происходит когда нужно что вызвать, числовое Number(value). логическое преобразование происходит при вызове Boolean(value).
+
  </script>
