@@ -81,4 +81,24 @@ a=7;
             typeof Symbol;
  
         </script>
-        
+        // задача
+        <script>
+            "use strict";
+            let name = "Ilya";
+            alert(`hello ${1}`);
+            alert( `hello ${"name"}`);
+            alert(`hello ${name}`);
+        </script>
+        <script>
+     "use strict";
+
+     //alert это функция или модальное окно, означающий что пользователь не может взаимодействовать с интерфейсом браузера пока не отргеагирует на алерт и нажмет ок
+      // promt принимает два аргумента title - текст для отображения в окне and default;
+let age = prompt('How old are you', 100);
+alert(`тебе ${age} лет!`);
+      //confirm показывает сообщения и ждет пока пользователь нажмет ок или отмена, возвращает true, если нажато ок, или false если нажата кнопка отмена или Еsc
+      let isBoss = confirm("Ты здесь главный");
+      alert( isBoss );
+      let userName= prompt("как тебя зовут");
+      alert(`я ${userName}.`);
+ </script>
