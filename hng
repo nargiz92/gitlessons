@@ -140,3 +140,22 @@ alert(`тебе ${age} лет!`);
       /*строковое преобразование происходит вызвов String(value) происходит когда нужно что вызвать, числовое Number(value). логическое преобразование происходит при вызове Boolean(value).
 
  </script>
+//freecodecamp
+Create a function called functionWithArgs that accepts two arguments and outputs their sum to the dev console.
+Call the function with two numbers as arguments.
+Passed
+functionWithArgs should be a function.
+
+Passed
+functionWithArgs(1,2) should output 3.
+
+Passed
+functionWithArgs(7,9) should output 16.
+
+Passed
+You should call functionWithArgs with two numbers after you define it.
+function functionWithArgs(a, b) {
+  console.log(a+b);
+};
+functionWithArgs(1, 2);
+functionWithArgs(7, 9)
