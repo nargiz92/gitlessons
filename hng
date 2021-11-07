@@ -210,3 +210,23 @@ myLocalScope();
 // Run and check the console
 // myVar is not defined outside of myLocalScope
 console.log('outside myLocalScope', myVar);
+//Global vs. Local Scope in FunctionsAdd a local variable to myOutfit function to override the value of outerWear with the string sweater.
+
+You should not change the value of the global outerWear.
+
+Passed
+myOutfit should return the string sweater.
+
+Passed
+You should not change the return statement.// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+const myOutfit = "sweater";
+return myOutfit;
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
