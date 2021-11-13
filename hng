@@ -590,3 +590,48 @@ function testLessOrEqual(val) {
 }
 
 testLessOrEqual(10);
+//Comparisons with the Logical And Operator
+Replace the two if statements with one statement, using the && operator, which will return the string Yes if val is less than or equal to 50 and greater than or equal to 25. Otherwise, will return the string No.
+
+Passed
+You should use the && operator once
+
+Passed
+You should only have one if statement
+
+Passed
+testLogicalAnd(0) should return the string No
+
+Passed
+testLogicalAnd(24) should return the string No
+
+Passed
+testLogicalAnd(25) should return the string Yes
+
+Passed
+testLogicalAnd(30) should return the string Yes
+
+Passed
+testLogicalAnd(50) should return the string Yes
+
+Passed
+testLogicalAnd(51) should return the string No
+
+Passed
+testLogicalAnd(75) should return the string No
+
+Passed
+testLogicalAnd(80) should return the string No
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >= 25) {
+      return "Yes";
+    }
+  
+
+  // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(10);
