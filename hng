@@ -781,3 +781,83 @@ function orderMyLogic(val) {
 }
 
 orderMyLogic(7);
+//codewars
+Function 3 - multiplying two numbers
+Return Negative
+function makeNegative(num){
+  if (num>0){
+    return -num
+  }
+  else if (num<0){
+    return num
+  }
+  else {
+    return 0
+  }
+}
+//Chaining If Else Statements
+Write chained if/else if statements to fulfill the following conditions:
+
+num < 5 - return Tiny
+num < 10 - return Small
+num < 15 - return Medium
+num < 20 - return Large
+num >= 20 - return Huge
+
+Passed
+You should have at least four else statements
+
+Passed
+You should have at least four if statements
+
+Passed
+You should have at least one return statement
+
+Passed
+testSize(0) should return the string Tiny
+
+Passed
+testSize(4) should return the string Tiny
+
+Passed
+testSize(5) should return the string Small
+
+Passed
+testSize(8) should return the string Small
+
+Passed
+testSize(10) should return the string Medium
+
+Passed
+testSize(14) should return the string Medium
+
+Passed
+testSize(15) should return the string Large
+
+Passed
+testSize(17) should return the string Large
+
+Passed
+testSize(20) should return the string Huge
+
+Passed
+testSize(25) should return the string Huge
+function testSize(num) {
+  // Only change code below this line
+if (num< 5) {
+  return "Tiny"
+} else if (num< 10) {
+  return "Small" 
+} else if (num< 15) {
+  return "Medium" 
+} else if (num< 20) {
+  return "Large" 
+} else {
+  return "Huge"
+} 
+
+  return "Change Me";
+  // Only change code above this line
+}
+
+testSize(7);
