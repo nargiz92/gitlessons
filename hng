@@ -861,3 +861,8 @@ if (num< 5) {
 }
 
 testSize(7);
+codewars
+var a = "dev"
+var b = "Lab"
+
+var name = a + b
