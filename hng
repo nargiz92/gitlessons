@@ -1063,4 +1063,18 @@ Sum all the numbers of the array (in F# and Haskell you get a list) except the h
 function sumArray(array) {
 return !array || array.length == 0 ? 0 : array.sort((a, b) => a - b).slice(1, array.length - 1).reduce((res, n)=> res + n,0);
   }
-  
+  //codewars
+  Introduction
+The first century spans from the year 1 up to and including the year 100, the second century - from the year 101 up to and including the year 200, etc.
+
+Task
+Given a year, return the century it is in.
+function century(year) {
+ let centureCount = 0;
+  while (year>0){
+    year = year - 100;
+    centureCount= centureCount+1;
+}// Finish this 
+  return centureCount;
+}
+
