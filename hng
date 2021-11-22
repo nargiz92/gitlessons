@@ -1316,4 +1316,39 @@ function rentalCarCost(d) {
   return (total >= 280)? total - 50:
   (total >= 120)? total -20: total // Your solution here
 }
+//codewars
+Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
+
+I love you
+a little
+a lot
+passionately
+madly
+not at all
+When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
+
+Your goal in this kata is to determine which phrase the girls would say for a flower of a given number of petals, where nb_petals > 0.
+Who remembers back to their time in the schoolyard, when girls would take a flower and tear its petals, saying each of the following phrases each time a petal was torn:
+
+I love you
+a little
+a lot
+passionately
+madly
+not at all
+When the last petal was torn there were cries of excitement, dreams, surging thoughts and emotions.
+
+Your goal in this kata is to determine which phrase the girls would say for a flower of a given number of petals, where nb_petals > 0.
+function howMuchILoveYou(nbPetals) {
+  let arr = ["I love you", 
+             "a little",
+             "a lot",
+             "passionately",
+             "madly",
+             "not at all"
+         
+    
+  ]
+  return (nbPetals%6===0)? "not at all": arr[nbPetals%6-1]// your code
+}
 
