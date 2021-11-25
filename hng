@@ -1563,3 +1563,15 @@ Assume test input string always valid and may look like "1 year old" or "5 years
 function getAge(inputString){
 return Number(inputString[0]);// return correct age (int). Happy coding :) 
 }
+//Can we divide it?
+Your task is to create the functionisDivideBy (or is_divide_by) to check if an integer number is divisible by both integers a and b.
+
+A few cases:
+function isDivideBy(number, a, b) {
+  if (number % a === 0 && number % b === 0) {
+    return true;
+   // good luck
+} else {
+  return false;
+}
+  }
