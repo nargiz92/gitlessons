@@ -1658,4 +1658,14 @@ If it is a square, return its area. If it is a rectangle, return its perimeter.
 const areaOrPerimeter = function(l , w) {
  return (l == w) ? l * w : l*2 + w*2 // Return your answer
 };
-areaOrPerimeter(4,6)
+areaOrPe//Twice as old
+rimeter(4,6)
+Your function takes two arguments:
+
+current father's age (years)
+current age of his son (years)
+Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+ return Math.abs((sonYearsOld*2)-dadYearsOld) // your code here
+}
