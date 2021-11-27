@@ -1669,4 +1669,9 @@ current age of his son (years)
 function twiceAsOld(dadYearsOld, sonYearsOld) {
  return Math.abs((sonYearsOld*2)-dadYearsOld) // your code here
 }
+//Is n divisible by x and y?
+Create a function that checks if a number n is divisible by two numbers x AND y. All inputs are positive, non-zero digits.
+function isDivisible(n, x, y) {
 
+return (n%x === 0 && n%y ===  0 ) ? true : false
+  }
