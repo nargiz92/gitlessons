@@ -1756,3 +1756,22 @@ array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 function index(array, n){
 return (array.length <= n) ? -1 : Math.pow(array[n], n)  //your code here
 }
+//Delete Properties from a JavaScript Object
+Delete the tails property from myDog. You may use either dot or bracket notation.
+
+Passed
+You should delete the property tails from myDog.
+
+Passed
+You should not modify the myDog setup.
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails
