@@ -1781,3 +1781,8 @@ Define String.prototype.toAlternatingCase (or a similar function/method such as 
 String.prototype.toAlternatingCase = function () {
 return this.split("").map(a=> a === a.toLowerCase()? a.toUpperCase(): a.toLowerCase() ).join("")  // Define your method here :)
 }
+//Find numbers which are divisible by given number
+Complete the function which takes two arguments and returns all numbers which are divisible by the given divisor. First argument is an array of numbers and the second is the divisor.
+function divisibleBy(numbers, divisor){
+return numbers.map(a => (a == 0)? a :(a%divisor ==0)? a: null ).filter(a => a !== null)
+}
