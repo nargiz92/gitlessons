@@ -1910,3 +1910,7 @@ The length of string is not always the same as the number of characters
 function solution(a, b){
  return (b.length > a.length) ? `${a}${b}${a}` : `${b}${a}${b}` // your code here
 }
+To pass the test on this challenge, change your h1 element's text to say Hello World.
+
+Your h1 element should have the text Hello World.
+<h1>hello world</h1>
