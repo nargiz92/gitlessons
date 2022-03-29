@@ -1914,3 +1914,10 @@ To pass the test on this challenge, change your h1 element's text to say Hello W
 
 Your h1 element should have the text Hello World.
 <h1>hello world</h1>
+let b = 10
+b && console.log('get')
+VM408:2 get
+undefined
+let c
+c&&console.log('get')
+undefined
