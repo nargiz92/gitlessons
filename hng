@@ -1921,3 +1921,35 @@ undefined
 let c
 c&&console.log('get')
 undefined
+      Массивы
+      const myArray = [1, 2, 3, 4]
+console.log(myArray)
+VM38900:2 
+(4) [1, 2, 3, 4]
+undefined
+console.log(myArray.length)
+VM38969:1 4
+undefined
+myArray[1] = 'true'
+console.log(myArray[1])
+VM39092:2 true
+undefined
+myArray[4] = false
+console.log(myArray[4])
+VM39236:2 false
+undefined
+console.log(myArray.length)
+VM39301:1 5
+undefined
+myArray[6] = 'add'
+console.log(myArray.length)
+VM39431:2 7
+undefined
+myArray
+(7) [1, 'true', 3, 4, false, empty, 'add']
+myArray.length = 5
+5
+myArray
+(5) [1, 'true', 3, 4, false]
+﻿
+
