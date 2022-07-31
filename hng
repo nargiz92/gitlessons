@@ -2002,3 +2002,15 @@ undefined
 console.log(myArray)
 VM42690:1 (2) [1, 2]
 undefined
+const myArray = [1, 2, 3]
+console.log(myArray)
+VM43141:2 (3) [1, 2, 3]
+undefined
+myArray.unshift(true)
+console.log(myArray)
+VM43234:2 (4) [true, 1, 2, 3]
+undefined
+myArray.unshift('abc')
+console.log(myArray)
+VM43380:2 (5) ['abc', true, 1, 2, 3]
+undefined
