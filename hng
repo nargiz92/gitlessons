@@ -2014,3 +2014,17 @@ myArray.unshift('abc')
 console.log(myArray)
 VM43380:2 (5) ['abc', true, 1, 2, 3]
 undefined
+const myArray = [1, 2, 3]
+console.log(myArray)
+VM43740:2 (3) [1, 2, 3]
+undefined
+myArray.shift()
+console.log(myArray)
+VM43829:2 (2) [2, 3]
+undefined
+const copyFirst = myArray.shift()
+console.log(myArray)
+VM43973:2 [3]
+undefined
+console.log(copyFirst)
+VM44063:1 2
