@@ -1963,3 +1963,19 @@ undefined
 console.log(myArray.length)
 VM40034:1 6
 undefined
+const myArray = [1, 2, 3]
+console.log(myArray) 
+VM40252:2 (3) [1, 2, 3]
+undefined
+myArray.push(4)
+console.log(myArray)
+VM40362:2 (4) [1, 2, 3, 4]
+undefined
+myArray.push(true)
+console.log(myArray)
+VM40458:2 (5) [1, 2, 3, 4, true]
+undefined
+
+console.log(myArray.length)
+VM40575:2 5
+undefined
