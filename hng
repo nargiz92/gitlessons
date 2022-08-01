@@ -2172,3 +2172,25 @@ switch (month) {
 }
 
 VM58113:10 May
+let value = 11
+console.log(value >= 0 ? value : -value)
+
+VM61296:2 11
+undefined
+value = -5
+const res = value >= 0 ? value: -value
+console.log(res)
+VM61544:3 5
+undefined
+
+const myArray = ['first', 'second', 'third']
+for (let i = 0; i< myArray.length; i++) {
+    console.log(myArray[i])
+}
+    
+VM63905:3 first
+VM63905:3 second
+VM63905:3 third
+undefined
+
+
