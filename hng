@@ -2193,4 +2193,11 @@ VM63905:3 second
 VM63905:3 third
 undefined
 
-
+const myArray = ['first', 'second', 'third']
+myArray.forEach((element, index) => {
+    console.log(element, index) 
+})
+VM64352:3 first 0
+VM64352:3 second 1
+VM64352:3 third 2
+undefined
