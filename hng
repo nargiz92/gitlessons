@@ -2028,3 +2028,63 @@ VM43973:2 [3]
 undefined
 console.log(copyFirst)
 VM44063:1 2
+const myArray = [1, 2, 3]
+console.log(myArray)
+const copeMyArray = myArray.forEach(el => console.log(el * 2))
+    console.log(myArray)
+console.log(copeMyArray)
+
+[Running] node "c:\Users\Family\Desktop\jsуроки\lesson.js"
+[ 1, 2, 3 ]
+2
+4
+6
+[ 1, 2, 3 ]
+
+[Done] exited with code=0 in 0.349 seconds
+
+[Running] node "c:\Users\Family\Desktop\jsуроки\lesson.js"
+[ 1, 2, 3 ]
+2
+4
+6
+[ 1, 2, 3 ]
+undefined
+
+[Done] exited with code=0 in 0.232 seconds
+const myArray = [1, 2, 3]
+    console.log(myArray)
+    const newArray = myArray.map(el =>el * 3)
+    console.log(myArray)
+    console.log(newArray)
+    [Running] node "c:\Users\Family\Desktop\jsуроки\lesson.js"
+[ 1, 2, 3 ]
+[ 1, 2, 3 ]
+[ 3, 6, 9 ]
+const userProfile = {
+    name: 'Nargiza',
+    age: 23,
+    hasSignedAgreement: false
+}
+const {name, age} = userProfile
+const {hasSignedAgreement} = userProfile
+console.log(name)
+VM46553:8 Nargiza
+undefined
+console.log(age)
+VM46622:1 23
+undefined
+console.log(hasSignedAgreement)
+VM46692:1 false
+undefined
+const age = 25
+if (age>18) {
+    console.log('Is adalt')
+} else if (age>=12) {
+    console.log('Is teenager')
+} else {
+    console.log('Is child')
+}[Running] node "c:\Users\Family\Desktop\jsуроки\lesson.js"
+Is adalt
+
+[Done] exited with code=0 in 0.209 seconds
