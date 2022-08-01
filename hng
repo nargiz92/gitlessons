@@ -2088,3 +2088,17 @@ if (age>18) {
 Is adalt
 
 [Done] exited with code=0 in 0.209 seconds
+const age = 25
+if (age>=18) {
+    console.log('Is adalt')
+} 
+if (age>=12 && age < 18) {
+    console.log('Is teenager')
+}
+if (age<12) {
+    console.log('Is child')
+}
+[Running] node "c:\Users\Family\Desktop\jsуроки\lesson.js"
+Is adalt
+
+[Done] exited with code=0
