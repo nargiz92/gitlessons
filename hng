@@ -2102,3 +2102,39 @@ if (age<12) {
 Is adalt
 
 [Done] exited with code=0
+
+﻿
+const sumPositivNumbers = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        return "One of the arguments not a number"
+    } 
+    if (a <=0 || b <=0) {
+        return 'Numbers in not positiv'
+    }
+    return a + b
+}
+sumPositivNumbers(true, 'ass')
+'One of the arguments not a number'
+const sumPositivNumbers = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        return "One of the arguments not a number"
+    } 
+    if (a <=0 || b <=0) {
+        return 'Numbers in not positiv'
+    }
+    return a + b
+}
+sumPositivNumbers(-1, 5)
+
+'Numbers in not positiv'
+const sumPositivNumbers = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+        return "One of the arguments not a number"
+    } 
+    if (a <=0 || b <=0) {
+        return 'Numbers in not positiv'
+    }
+    return a + b
+}
+sumPositivNumbers(5, 4)
+9
