@@ -2156,3 +2156,19 @@ switch (month) {
         console.log('It is not winter')
 }
 VM56495:13 Febrary
+const month = 5
+switch (month) {
+    case 4: 
+        console.log('April')
+        break
+    case 3:
+        console.log('March')
+        break
+    case 5:
+        console.log('May')
+        break
+    default:
+        console.log('It is not winter')
+}
+
+VM58113:10 May
