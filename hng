@@ -2201,3 +2201,70 @@ VM64352:3 first 0
 VM64352:3 second 1
 VM64352:3 third 2
 undefined
+const myObject = {
+    x: 10,
+    y: true,
+    z: 'ab'
+}
+for (const key in myObject) {
+    console.log(key, myObject[key])
+}
+    
+VM799:7 x 10
+VM799:7 y true
+VM799:7 z ab
+undefined
+const newObject = {
+    a: 55,
+    b: 'across',
+    c: true
+}
+for (const key in newObject) {
+    console.log(key, newObject[key])
+}
+VM1241:7 a 55
+VM1241:7 b across
+VM1241:7 c true
+undefined
+
+const myArray = [25, true, 'abc', 4]
+for( const key in myArray) {
+    console.log(myArray[key])
+}
+
+VM2673:3 25
+VM2673:3 true
+VM2673:3 abc
+VM2673:3 4
+undefined
+
+const newIter = 'Hey'
+for (const letter of newIter) {
+    console.log(letter)
+}
+
+VM3839:3 H
+VM3839:3 e
+VM3839:3 y
+undefined
+
+const myArray = ['name', 25, true]
+for (const element of myArray) {
+    console.log(element)
+}
+VM5017:3 name
+VM5017:3 25
+VM5017:3 true
+undefined
+
+const myArray = [true, 10, 'abc', null]
+myArray.forEach(element => {
+    console.log(element)
+})
+VM5413:3 true
+VM5413:3 10
+VM5413:3 abc
+VM5413:3 null
+undefined
+
+
